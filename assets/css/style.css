@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Material Design Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/materialdesignicons-webfont.woff2?124') format('woff2'),
+        url('../fonts/materialdesignicons-webfont.woff?124') format('woff');
+}
+
+@font-face {
+    font-family: satoshi;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Satoshi-Medium.woff?123') format("woff");
+}
+@font-face {
+    font-family: satoshi;
+    src: url('../fonts/Satoshi-Bold.woff2?123') format('woff2'),
+        url('../fonts/Satoshi-Bold.woff?123') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: satoshi;
+    src: url('../fonts/Satoshi-Regular.woff2?123') format('woff2'),
+        url('../fonts/Satoshi-Regular.woff?123') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-primary {
+    color: rgb(var(--v-theme-primary)) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.originality-ai--admin-container label {
+    font-weight: bold;
+}
+
+.originality-ai--admin-container label,
+.originality-ai--admin-container p,
+.originality-ai--admin-container {
+    font-size: 16px;
+}
+
+.originality-ai--admin-container {}
+
+#wpcontent {
+    font-size: 16px;
+    padding-left: 0;
+    background: url(../img/texture-2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.v-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+/*    margin: 60px;*/
+
+width: calc(100% - 40px);
+margin-left: auto;
+margin-right: auto;
+
+/*    margin-top: calc(60px - 32px);*/
+    position: relative;
+/*    height: calc(90vh - 180px);*/
+box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+#originality-ai--logo {
+    height: 36px;
+    margin-left: 20px;
+    margin-top: 32px;
+    max-width: 180px;
+    max-height: 40px;
+    height: auto;
+    width: auto; 
+    display: block;
+    object-fit: contain;
+}
+
+#login, #password, .originality-ai--admin-container select {
+    min-width: 300px !important;
+}
+
+#login[readonly] {
+    background-color: rgba(var(--v-theme-oggrey));
+}
+
+.originality-ai--admin-container input[type="text"],
+.originality-ai--admin-container select,
+.originality-ai--admin-container input[type="password"] {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    border: 1px rgba(0, 0, 0, 0.87) solid;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    column-gap: 2px;
+    cursor: text;
+    direction: ltr;
+    display: flex;
+    flex: 1 0 0%;
+    flex-wrap: wrap;
+    font-family: Satoshi, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 56px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 0px;
+    opacity: 1;
+    overflow-wrap: break-word;
+    overflow: clip;
+    padding: 16px 6px 16px 16px;
+    position: relative;
+    transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 220.172px;
+    word-spacing: 0px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-rtl-ordering: logical;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-border-image: none;
+}
+
+.originality-ai--admin-container .button-primary {
+    align-items: center;
+    appearance: button;
+    background-attachment: scroll;
+    background-color: rgb(120, 89, 255);
+    border-radius: 4px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    direction: ltr;
+    display: flex;
+    flex: 1 0 auto;
+    font-family: Satoshi, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: 1.42857px;
+    margin: 0;
+    outline-color: rgb(255, 255, 255);
+    outline-style: none;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-indent: 1.42857px;
+    transition: box-shadow 0.28s, transform 0.28s, opacity 0.28s, background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+    vertical-align: middle;
+    width: 215.516px;
+    word-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-border-image: none;
+}
+
+.originality-ai--admin-container .button-primary:hover {
+    background-color: rgb(var(--v-theme-primary)) !important;
+    box-shadow: 0 2px 4px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)), 0 4px 5px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)), 0 1px 10px 0 var(--v-shadow-key-ambient-opacity, rgba(0, 0, 0, .12));
+}
+
+.originality-ai--admin-container {
+    color-scheme: normal;
+    --v-theme-background: 43, 33, 84;
+    --v-theme-background-overlay-multiplier: 2;
+    --v-theme-surface: 255, 255, 255;
+    --v-theme-surface-overlay-multiplier: 1;
+    --v-theme-surface-bright: 255, 255, 255;
+    --v-theme-surface-bright-overlay-multiplier: 1;
+    --v-theme-surface-light: 238, 238, 238;
+    --v-theme-surface-light-overlay-multiplier: 1;
+    --v-theme-surface-variant: 66, 66, 66;
+    --v-theme-surface-variant-overlay-multiplier: 2;
+    --v-theme-on-surface-variant: 238, 238, 238;
+    --v-theme-primary: 120, 89, 255;
+    --v-theme-primary-overlay-multiplier: 1;
+    --v-theme-primary-darken-1: 31, 85, 146;
+    --v-theme-primary-darken-1-overlay-multiplier: 2;
+    --v-theme-secondary: 90, 77, 142;
+    --v-theme-secondary-overlay-multiplier: 2;
+    --v-theme-secondary-darken-1: 1, 135, 134;
+    --v-theme-secondary-darken-1-overlay-multiplier: 1;
+    --v-theme-error: 211, 47, 47;
+    --v-theme-error-overlay-multiplier: 2;
+    --v-theme-info: 43, 33, 84;
+    --v-theme-info-overlay-multiplier: 2;
+    --v-theme-success: 104, 159, 56;
+    --v-theme-success-overlay-multiplier: 1;
+    --v-theme-warning: 255, 187, 89;
+    --v-theme-warning-overlay-multiplier: 1;
+    --v-theme-accent: 255, 255, 255;
+    --v-theme-accent-overlay-multiplier: 1;
+    --v-theme-ogblue: 56, 182, 255;
+    --v-theme-ogblue-overlay-multiplier: 1;
+    --v-theme-ogdkblue: 77, 85, 255;
+    --v-theme-ogdkblue-overlay-multiplier: 2;
+    --v-theme-oggrey: 222, 222, 222;
+    --v-theme-oggrey-overlay-multiplier: 1;
+    --v-theme-on-background: 255, 255, 255;
+    --v-theme-on-surface: 0, 0, 0;
+    --v-theme-on-surface-bright: 0, 0, 0;
+    --v-theme-on-surface-light: 0, 0, 0;
+    --v-theme-on-primary: 255, 255, 255;
+    --v-theme-on-primary-darken-1: 255, 255, 255;
+    --v-theme-on-secondary: 255, 255, 255;
+    --v-theme-on-secondary-darken-1: 255, 255, 255;
+    --v-theme-on-error: 255, 255, 255;
+    --v-theme-on-info: 255, 255, 255;
+    --v-theme-on-success: 255, 255, 255;
+    --v-theme-on-warning: 0, 0, 0;
+    --v-theme-on-accent: 0, 0, 0;
+    --v-theme-on-ogblue: 0, 0, 0;
+    --v-theme-on-ogdkblue: 255, 255, 255;
+    --v-theme-on-oggrey: 0, 0, 0;
+    --v-border-color: 0, 0, 0;
+    --v-border-opacity: 0.12;
+    --v-high-emphasis-opacity: 0.87;
+    --v-medium-emphasis-opacity: 0.6;
+    --v-disabled-opacity: 0.38;
+    --v-idle-opacity: 0.04;
+    --v-hover-opacity: 0.04;
+    --v-focus-opacity: 0.12;
+    --v-selected-opacity: 0.08;
+    --v-activated-opacity: 0.12;
+    --v-pressed-opacity: 0.12;
+    --v-dragged-opacity: 0.08;
+    --v-theme-kbd: 33, 37, 41;
+    --v-theme-on-kbd: 255, 255, 255;
+    --v-theme-code: 245, 245, 245;
+    --v-theme-on-code: 0, 0, 0;
+}
+
+
+
+
+

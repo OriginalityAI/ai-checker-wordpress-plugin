@@ -1,0 +1,69 @@
+.originality-ai.sidebar-button {
+    margin-top: 15px;
+}
+
+.watermarked .apexcharts-canvas {
+    background-image: url(../img/logo.svg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.apexcharts-canvas {
+    position: relative;
+    user-select: none;
+}
+
+.originality-ai-sidebar-button {
+    width: 100% !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    min-height: 36px !important;
+    border: 1px solid #BBB !important;
+    background: #fff !important;
+
+    color: #5F5F5F !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+}
+.originality-ai-sidebar-button:last-child {
+    margin-bottom: 0 !important;
+}
+.originality-ai-sidebar-button svg {
+    position: relative;
+    top: 1px;
+}
+
+.originalityai__scan-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.originalityai__scan-link-item {
+    box-shadow: none !important;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 4px;
+
+    font-size: 12px;
+    color: #156FB9 !important;
+    font-weight: 500;
+}
+
+/*button[aria-expanded="true"] #originalityai__sidebar-panel-title span {
+    display:none !important;
+}*/

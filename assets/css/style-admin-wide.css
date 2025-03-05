@@ -1,0 +1,320 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0)
+  }
+
+  to {
+    transform: rotate(359deg)
+  }
+}
+
+/* Originality.ai Notice */
+.originalityai-activation-notice {
+  border-left: 4px solid #4B4BFC; /* Originality.ai purple for left border */
+  background: #f6f8fc; /* Light grayish blue background */
+  min-height: 50px;
+  padding: 15px;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Dark text for readability */
+  border-radius: 4px; /* Slightly rounded corners for modern design */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.originalityai-activation-notice h3 {
+  font-size: 16px;
+  margin: 0 0 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2c2c2c; /* Darker color for the title */
+}
+
+.originalityai-activation-notice h3 a.originalityai-notice-link {
+  color: #4B4BFC; /* Originality.ai brand purple for the main link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.originalityai-activation-notice h3 a.originalityai-notice-link:hover {
+  text-decoration: underline; /* Add underline effect on hover */
+}
+
+.originalityai-activation-notice p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.originalityai-activation-notice a.originalityai-settings-link {
+  font-weight: bold;
+  color: #156FB9; /* Blue for secondary links */
+  text-decoration: underline;
+}
+
+.originalityai-activation-notice a.originalityai-settings-link:hover {
+  color: #4B4BFC; /* Hover color matches the purple theme */
+  text-decoration: none;
+}
+
+
+
+.originality-ai-score-button {
+  position: relative;
+  /* Added this property */
+  display: inline-block;
+  /* Added this to give the span a width */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 125%;
+  color: #a1a1a1;
+  border: 1px solid currentcolor;
+  border-radius: 2px;
+}
+
+.originality-ai-score-button:hover>div {
+  display: block !important;
+}
+
+.originalityai .popper.action {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 12px;
+  top: -5.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 200px;
+}
+
+.originalityai .popper__arrow {
+  position: absolute;
+  bottom: -10px;
+  /* This positions arrow at the bottom of tooltip */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #333;
+  /* Adjusted arrow to point upwards */
+}
+
+
+@media screen and (min-width: 783px) {
+  .wp-list-table thead th.column-primary {
+    width: 20%;
+  }
+}
+
+#originalityai,
+tfoot .column-originalityai {
+  width: 11em !important;
+  padding-right: 6px !important;
+}
+
+.originalityai {
+  padding-right: 6px !important;
+}
+
+tfoot .column-originalityai-refresh,
+tfoot .column-originalityai-share,
+#originalityai-refresh,
+#originalityai-share {
+  width: 1em;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#originalityai-share,
+tfoot .column-originalityai-share {
+  padding-right: 11px;
+}
+
+
+.originalityai-refresh,
+.originalityai-share {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.originalityai-refresh a,
+.originalityai-share a {
+  box-shadow: none;
+}
+
+.originalityai-refresh svg,
+.originalityai-share svg {
+  display: block;
+}
+
+.originalityai-rotate-child-img svg,
+.originalityai-rotate-child-img img {
+  animation: rotate360 1.5s linear infinite;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+[data-originalityai-tooltip],
+[data-originalityai-tooltip-click],
+[data-originalityai-tooltip-content] {
+  position: relative;
+}
+
+
+[data-originalityai-tooltip]:before {
+  content: attr(data-originalityai-tooltip);
+}
+
+[data-originalityai-tooltip-click]:before {
+  content: attr(data-originalityai-tooltip-click);
+}
+
+
+
+
+[data-originalityai-tooltip]:before,
+[data-originalityai-tooltip-click]:before,
+[data-originalityai-tooltip-content] [data-tooltip-popup] {
+  display: block;
+  pointer-events: none;
+  background: #303030;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  transition: opacity .2s ease;
+  max-width: 400px;
+  min-width: 90px;
+  line-height: 1.34;
+
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-bottom: 8px;
+}
+
+[data-originalityai-tooltip]:hover:before,
+[data-originalityai-tooltip-click]:before,
+[data-originalityai-tooltip-content].popup-visible [data-tooltip-popup],
+[data-originalityai-tooltip-content]:hover [data-tooltip-popup] {
+  z-index: 5;
+  visibility: visible;
+  opacity: 1;
+}
+
+[data-originalityai-tooltip-content]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 99%;
+  height: 40px;
+  width: 212px;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+[data-originalityai-tooltip-content]:hover:before {
+  z-index: 4;
+}
+
+[data-originalityai-tooltip-content]:hover [data-tooltip-popup] {
+  pointer-events: auto !important;
+  width: 212px;
+  text-align: left;
+  font-weight: 400;
+}
+
+[data-originalityai-tooltip-content] [data-tooltip-popup] a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+
+/* sidebar */
+.components-button.components-panel__body-toggle:has(#originalityai__sidebar-panel-title) .components-panel__arrow {
+  top: 12.5px !important;
+  transform: translateY(0) !important;
+}
+
+.components-button.components-panel__body-toggle:has(#originalityai__sidebar-panel-title) {
+  padding-right: 16px !important;
+}
+
+.originalityai-header-links {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 8px;
+  width: 100%;
+}
+
+
+.originalityai-header-links a {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.originalityai-header-links a:hover {
+  text-decoration: underline;
+}
+
+.originalityai-header-links__item {
+  display: inline-block;
+  color: #2271b1 !important;
+  position: relative !important;
+}
+.originalityai-header-links__item.loading {
+  pointer-events: none !important;
+  color: transparent !important;
+}
+
+.originalityai-header-links__item.loading:after {
+  animation: spinAround .5s infinite linear;
+  border: 1px solid #2271b1;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(50% - 5px);
+  position: absolute !important;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "originality-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "air-datepicker": "3.5.3",
+    "apexcharts": "3.52.0",
+    "autoprefixer": "10.4.20",
+    "axios": "1.7.7",
+    "babel-loader": "9.2.1",
+    "cross-env": "7.0.3",
+    "css-loader": "7.1.2",
+    "group-css-media-queries-loader": "4.3.0",
+    "js-cookie": "3.0.5",
+    "loader-utils": "2.0.4",
+    "mini-css-extract-plugin": "2.9.2",
+    "path": "0.12.7",
+    "postcss": "8.4.49",
+    "postcss-loader": "8.1.1",
+    "sass": "~1.81.0",
+    "sass-loader": "16.0.3",
+    "tailwindcss": "3.4.15",
+    "terser-webpack-plugin": "5.3.10",
+    "vue": "3.5.13",
+    "vue-loader": "17.3.1",
+    "vue3-apexcharts": "1.7.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "5.1.4"
+  }
+}

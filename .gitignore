@@ -1,0 +1,11 @@
+node_modules
+pnpm-lock.yaml
+assets/js/vue-main.js
+assets/js/vue-main.js.map
+assets/js/vue-main.js.LICENSE.txt
+
+/assets/*.png
+/assets/*.svg
+/assets/*.gif
+
+!/assets/*/
