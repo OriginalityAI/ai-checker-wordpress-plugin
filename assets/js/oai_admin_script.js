@@ -1,5 +1,6 @@
 var dc_ajax = {
     url: oaiAjaxObject.ajaxUrl,
     adminPostListUrl: oaiAjaxObject.adminUrl,
-    scans_title: oaiAjaxObject.scansTitle
+    scans_title: oaiAjaxObject.scansTitle,
+    nonce: oaiAjaxObject.nonce,
 };

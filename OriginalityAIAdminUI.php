@@ -267,6 +267,7 @@ class OriginalityAIAdminUI extends OriginalityAI {
 			'ajaxUrl' => admin_url("admin-ajax.php"),
 			'adminUrl' => admin_url("edit.php"),
 			'scansTitle' => 'Recent Content Scans',
+			'nonce' => wp_create_nonce( 'originalityai_delete_scan_nonce' ),
 		);
 
 		wp_localize_script( 'oai_admin_script', 'oaiAjaxObject', $localize_data );

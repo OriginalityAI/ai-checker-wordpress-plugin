@@ -13,6 +13,7 @@ export default {
 		return {
 			mainVar: {
 				ajax_url: window.dc_ajax.url,
+				nonce: window.dc_ajax.nonce,
 				adminPostListUrl: window.dc_ajax.adminPostListUrl,
 				is_loaded: false,
 				response_data_exist: null,

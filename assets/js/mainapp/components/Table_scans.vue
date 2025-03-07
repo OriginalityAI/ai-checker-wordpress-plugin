@@ -133,12 +133,13 @@ export default {
       let _self = this;
       _self.ready_data = obj;
 
-      axios.post(_self.mainVar.ajax_url, {
+      axios.post(_self.mainVar.ajax_url, new URLSearchParams({
         action: 'ai_scan_result_remove',
-        id: obj.item_id
-      })
+        id: obj.item_id,
+        nonce: _self.mainVar.nonce,
+      }))
         .then(function (response) {
-          console.log(response.data);
+          alert(response.data?.data?.message);
         })
         .catch(function (error) {
           console.error('Axios Error:', error);

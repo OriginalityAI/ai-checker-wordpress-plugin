@@ -43,6 +43,7 @@ class OriginalityAI {
     	add_action( 'admin_post_originalityai_save_settings', [ self::class, 'handle_settings_form_submission' ] );
 		add_action( 'admin_enqueue_scripts', [ self::class, 'enqueue_styles' ] );
 		add_action( 'wp_ajax_ai_scan', [ self::class, 'ai_scan_for_post_ajax' ] );
+		add_action( 'wp_ajax_ai_scan_result_remove', [ self::class, 'ai_scan_result_remove' ] );
 		add_action('admin_notices', [ self::class, 'display_admin_notices' ] );
 
 		// Admin related filters.
@@ -517,6 +518,49 @@ class OriginalityAI {
 		}
 
 		return false;
+	}
+
+	/**
+	 * Remove scan result.
+	 *
+	 * This method handles the removal of a scan result from the database.
+	 *
+	 * @since 1.0.12
+	 *
+	 * @return void
+	 */
+	public static function ai_scan_result_remove() {
+		// Verify nonce for security.
+		check_ajax_referer( 'originalityai_delete_scan_nonce', 'nonce' );
+	
+		// Validate and sanitize scan ID.
+		$scan_id = isset( $_POST['id'] ) ? intval( $_POST['id'] ) : 0;
+	
+		if ( $scan_id <= 0 ) {
+			wp_send_json_error( ['message' => esc_html__( 'Invalid scan ID.', 'originality-ai' ) ], 400 );
+		}
+	
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'originalityai_log';
+	
+		// Check if the scan result exists.
+		$scan_entry = $wpdb->get_row($wpdb->prepare("SELECT * FROM `$table_name` WHERE `id` = %d", $scan_id), ARRAY_A);
+	
+		if ( ! $scan_entry ) {
+			wp_send_json_error( ['message' => esc_html__( 'Scan result not found.', 'originality-ai' )], 404 );
+		}
+	
+		// Delete the scan result.
+		$deleted = $wpdb->delete( $table_name, ['id' => $scan_id], ['%d'] );
+	
+		if ( $deleted ) {
+			// Clear cache for related post ID.
+			wp_cache_delete('latest_log_post_' . $scan_entry['post_id'], 'originalityai');
+	
+			wp_send_json_success( ['message' => esc_html( 'Scan result removed successfully.', 'originality-ai' )] );
+		} else {
+			wp_send_json_error( ['message' => esc_html__( 'Failed to remove scan result.', 'originality-ai' )], 500);
+		}
 	}
 
 	/**

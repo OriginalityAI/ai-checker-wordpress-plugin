@@ -1,4 +1,15 @@
-.originality-ai-navs{margin-top:24px;max-width:calc(100% - 40px);margin-left:auto;margin-right:auto}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/group-css-media-queries-loader@4.3.0_loader-utils@2.0.4_postcss@8.4.49_webpack@5.98.0/node_modules/group-css-media-queries-loader/lib/index.js!./node_modules/.pnpm/sass-loader@16.0.3_sass@1.81.1_webpack@5.98.0/node_modules/sass-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./assets/js/mainapp/components/Tabs_nav.vue?vue&type=style&index=0&id=68b993bc&lang=scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.originality-ai-navs {
+  margin-top: 24px;
+  max-width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/air-datepicker@3.5.3/node_modules/air-datepicker/air-datepicker.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
 .air-datepicker-cell.-year-.-other-decade-,.air-datepicker-cell.-day-.-other-month-{color:var(--adp-color-other-month)}.air-datepicker-cell.-year-.-other-decade-:hover,.air-datepicker-cell.-day-.-other-month-:hover{color:var(--adp-color-other-month-hover)}.-disabled-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-disabled-.-focus-.air-datepicker-cell.-day-.-other-month-{color:var(--adp-color-other-month)}.-selected-.air-datepicker-cell.-year-.-other-decade-,.-selected-.air-datepicker-cell.-day-.-other-month-{color:#fff;background:var(--adp-background-color-selected-other-month)}.-selected-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-selected-.-focus-.air-datepicker-cell.-day-.-other-month-{background:var(--adp-background-color-selected-other-month-focused)}.-in-range-.air-datepicker-cell.-year-.-other-decade-,.-in-range-.air-datepicker-cell.-day-.-other-month-{background-color:var(--adp-background-color-in-range);color:var(--adp-color)}.-in-range-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-in-range-.-focus-.air-datepicker-cell.-day-.-other-month-{background-color:var(--adp-background-color-in-range-focused)}.air-datepicker-cell.-year-.-other-decade-:empty,.air-datepicker-cell.-day-.-other-month-:empty{background:none;border:none}.air-datepicker-cell{border-radius:var(--adp-cell-border-radius);box-sizing:border-box;cursor:pointer;display:flex;position:relative;align-items:center;justify-content:center;z-index:1}.air-datepicker-cell.-focus-{background:var(--adp-cell-background-color-hover)}.air-datepicker-cell.-current-{color:var(--adp-color-current-date)}.air-datepicker-cell.-current-.-focus-{color:var(--adp-color)}.air-datepicker-cell.-current-.-in-range-{color:var(--adp-color-current-date)}.air-datepicker-cell.-disabled-{cursor:default;color:var(--adp-color-disabled)}.air-datepicker-cell.-disabled-.-focus-{color:var(--adp-color-disabled)}.air-datepicker-cell.-disabled-.-in-range-{color:var(--adp-color-disabled-in-range)}.air-datepicker-cell.-disabled-.-current-.-focus-{color:var(--adp-color-disabled)}.air-datepicker-cell.-in-range-{background:var(--adp-cell-background-color-in-range);border-radius:0}.air-datepicker-cell.-in-range-:hover,.air-datepicker-cell.-in-range-.-focus-{background:var(--adp-cell-background-color-in-range-hover)}.air-datepicker-cell.-range-from-{border:1px solid var(--adp-cell-border-color-in-range);background-color:var(--adp-cell-background-color-in-range);border-radius:var(--adp-cell-border-radius) 0 0 var(--adp-cell-border-radius)}.air-datepicker-cell.-range-to-{border:1px solid var(--adp-cell-border-color-in-range);background-color:var(--adp-cell-background-color-in-range);border-radius:0 var(--adp-cell-border-radius) var(--adp-cell-border-radius) 0}.air-datepicker-cell.-range-to-.-range-from-{border-radius:var(--adp-cell-border-radius)}.air-datepicker-cell.-selected-{color:#fff;border:none;background:var(--adp-cell-background-color-selected)}.air-datepicker-cell.-selected-.-current-{color:#fff;background:var(--adp-cell-background-color-selected)}.air-datepicker-cell.-selected-.-focus-{background:var(--adp-cell-background-color-selected-hover)}
 .air-datepicker-body{transition:all var(--adp-transition-duration) var(--adp-transition-ease)}.air-datepicker-body.-hidden-{display:none}.air-datepicker-body--day-names{display:grid;grid-template-columns:repeat(7, var(--adp-day-cell-width));margin:8px 0 3px}.air-datepicker-body--day-name{color:var(--adp-day-name-color);display:flex;align-items:center;justify-content:center;flex:1;text-align:center;text-transform:uppercase;font-size:.8em}.air-datepicker-body--day-name.-clickable-{cursor:pointer}.air-datepicker-body--day-name.-clickable-:hover{color:var(--adp-day-name-color-hover)}.air-datepicker-body--cells{display:grid}.air-datepicker-body--cells.-days-{grid-template-columns:repeat(7, var(--adp-day-cell-width));grid-auto-rows:var(--adp-day-cell-height)}.air-datepicker-body--cells.-months-{grid-template-columns:repeat(3, 1fr);grid-auto-rows:var(--adp-month-cell-height)}.air-datepicker-body--cells.-years-{grid-template-columns:repeat(4, 1fr);grid-auto-rows:var(--adp-year-cell-height)}
 .air-datepicker-nav{display:flex;justify-content:space-between;border-bottom:1px solid var(--adp-border-color-inner);min-height:var(--adp-nav-height);padding:var(--adp-padding);box-sizing:content-box}.-only-timepicker- .air-datepicker-nav{display:none}.air-datepicker-nav--title,.air-datepicker-nav--action{display:flex;cursor:pointer;align-items:center;justify-content:center}.air-datepicker-nav--action{width:var(--adp-nav-action-size);border-radius:var(--adp-border-radius);-webkit-user-select:none;-moz-user-select:none;user-select:none}.air-datepicker-nav--action:hover{background:var(--adp-background-color-hover)}.air-datepicker-nav--action:active{background:var(--adp-background-color-active)}.air-datepicker-nav--action.-disabled-{visibility:hidden}.air-datepicker-nav--action svg{width:32px;height:32px}.air-datepicker-nav--action path{fill:none;stroke:var(--adp-nav-arrow-color);stroke-width:2px}.air-datepicker-nav--title{border-radius:var(--adp-border-radius);padding:0 8px}.air-datepicker-nav--title i{font-style:normal;color:var(--adp-nav-color-secondary);margin-left:.3em}.air-datepicker-nav--title:hover{background:var(--adp-background-color-hover)}.air-datepicker-nav--title:active{background:var(--adp-background-color-active)}.air-datepicker-nav--title.-disabled-{cursor:default;background:none}
@@ -7,7 +18,167 @@
 .air-datepicker{--adp-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--adp-font-size: 14px;--adp-width: 246px;--adp-z-index: 100;--adp-padding: 4px;--adp-grid-areas: "nav" "body" "timepicker" "buttons";--adp-transition-duration: .3s;--adp-transition-ease: ease-out;--adp-transition-offset: 8px;--adp-background-color: #fff;--adp-background-color-hover: #f0f0f0;--adp-background-color-active: #eaeaea;--adp-background-color-in-range: rgba(92, 196, 239, .1);--adp-background-color-in-range-focused: rgba(92, 196, 239, .2);--adp-background-color-selected-other-month-focused: #8ad5f4;--adp-background-color-selected-other-month: #a2ddf6;--adp-color: #4a4a4a;--adp-color-secondary: #9c9c9c;--adp-accent-color: #4eb5e6;--adp-color-current-date: var(--adp-accent-color);--adp-color-other-month: #dedede;--adp-color-disabled: #aeaeae;--adp-color-disabled-in-range: #939393;--adp-color-other-month-hover: #c5c5c5;--adp-border-color: #dbdbdb;--adp-border-color-inner: #efefef;--adp-border-radius: 4px;--adp-border-color-inline: #d7d7d7;--adp-nav-height: 32px;--adp-nav-arrow-color: var(--adp-color-secondary);--adp-nav-action-size: 32px;--adp-nav-color-secondary: var(--adp-color-secondary);--adp-day-name-color: #ff9a19;--adp-day-name-color-hover: #8ad5f4;--adp-day-cell-width: 1fr;--adp-day-cell-height: 32px;--adp-month-cell-height: 42px;--adp-year-cell-height: 56px;--adp-pointer-size: 10px;--adp-poiner-border-radius: 2px;--adp-pointer-offset: 14px;--adp-cell-border-radius: 4px;--adp-cell-background-color-hover: var(--adp-background-color-hover);--adp-cell-background-color-selected: #5cc4ef;--adp-cell-background-color-selected-hover: #45bced;--adp-cell-background-color-in-range: rgba(92, 196, 239, 0.1);--adp-cell-background-color-in-range-hover: rgba(92, 196, 239, 0.2);--adp-cell-border-color-in-range: var(--adp-cell-background-color-selected);--adp-btn-height: 32px;--adp-btn-color: var(--adp-accent-color);--adp-btn-color-hover: var(--adp-color);--adp-btn-border-radius: var(--adp-border-radius);--adp-btn-background-color-hover: var(--adp-background-color-hover);--adp-btn-background-color-active: var(--adp-background-color-active);--adp-time-track-height: 1px;--adp-time-track-color: #dedede;--adp-time-track-color-hover: #b1b1b1;--adp-time-thumb-size: 12px;--adp-time-padding-inner: 10px;--adp-time-day-period-color: var(--adp-color-secondary);--adp-mobile-font-size: 16px;--adp-mobile-nav-height: 40px;--adp-mobile-width: 320px;--adp-mobile-day-cell-height: 38px;--adp-mobile-month-cell-height: 48px;--adp-mobile-year-cell-height: 64px}.air-datepicker-overlay{--adp-overlay-background-color: rgba(0, 0, 0, .3);--adp-overlay-transition-duration: .3s;--adp-overlay-transition-ease: ease-out;--adp-overlay-z-index: 99}
 .air-datepicker{background:var(--adp-background-color);border:1px solid var(--adp-border-color);box-shadow:0 4px 12px rgba(0,0,0,.15);border-radius:var(--adp-border-radius);box-sizing:content-box;display:grid;grid-template-columns:1fr;grid-template-rows:repeat(4, max-content);grid-template-areas:var(--adp-grid-areas);font-family:var(--adp-font-family),sans-serif;font-size:var(--adp-font-size);color:var(--adp-color);width:var(--adp-width);position:absolute;transition:opacity var(--adp-transition-duration) var(--adp-transition-ease),transform var(--adp-transition-duration) var(--adp-transition-ease);z-index:var(--adp-z-index)}.air-datepicker:not(.-custom-position-){opacity:0}.air-datepicker.-from-top-{transform:translateY(calc(var(--adp-transition-offset) * -1))}.air-datepicker.-from-right-{transform:translateX(var(--adp-transition-offset))}.air-datepicker.-from-bottom-{transform:translateY(var(--adp-transition-offset))}.air-datepicker.-from-left-{transform:translateX(calc(var(--adp-transition-offset) * -1))}.air-datepicker.-active-:not(.-custom-position-){transform:translate(0, 0);opacity:1}.air-datepicker.-active-.-custom-position-{transition:none}.air-datepicker.-inline-{border-color:var(--adp-border-color-inline);box-shadow:none;position:static;left:auto;right:auto;opacity:1;transform:none}.air-datepicker.-inline- .air-datepicker--pointer{display:none}.air-datepicker.-is-mobile-{--adp-font-size: var(--adp-mobile-font-size);--adp-day-cell-height: var(--adp-mobile-day-cell-height);--adp-month-cell-height: var(--adp-mobile-month-cell-height);--adp-year-cell-height: var(--adp-mobile-year-cell-height);--adp-nav-height: var(--adp-mobile-nav-height);--adp-nav-action-size: var(--adp-mobile-nav-height);position:fixed;width:var(--adp-mobile-width);border:none}.air-datepicker.-is-mobile- *{-webkit-tap-highlight-color:rgba(0,0,0,0)}.air-datepicker.-is-mobile- .air-datepicker--pointer{display:none}.air-datepicker.-is-mobile-:not(.-custom-position-){transform:translate(-50%, calc(-50% + var(--adp-transition-offset)))}.air-datepicker.-is-mobile-.-active-:not(.-custom-position-){transform:translate(-50%, -50%)}.air-datepicker.-custom-position-{transition:none}.air-datepicker-global-container{position:absolute;left:0;top:0}.air-datepicker--pointer{--pointer-half-size: calc(var(--adp-pointer-size) / 2);position:absolute;width:var(--adp-pointer-size);height:var(--adp-pointer-size);z-index:-1}.air-datepicker--pointer:after{content:"";position:absolute;background:#fff;border-top:1px solid var(--adp-border-color-inline);border-right:1px solid var(--adp-border-color-inline);border-top-right-radius:var(--adp-poiner-border-radius);width:var(--adp-pointer-size);height:var(--adp-pointer-size);box-sizing:border-box}.-top-left- .air-datepicker--pointer,.-top-center- .air-datepicker--pointer,.-top-right- .air-datepicker--pointer,[data-popper-placement^=top] .air-datepicker--pointer{top:calc(100% - var(--pointer-half-size) + 1px)}.-top-left- .air-datepicker--pointer:after,.-top-center- .air-datepicker--pointer:after,.-top-right- .air-datepicker--pointer:after,[data-popper-placement^=top] .air-datepicker--pointer:after{transform:rotate(135deg)}.-right-top- .air-datepicker--pointer,.-right-center- .air-datepicker--pointer,.-right-bottom- .air-datepicker--pointer,[data-popper-placement^=right] .air-datepicker--pointer{right:calc(100% - var(--pointer-half-size) + 1px)}.-right-top- .air-datepicker--pointer:after,.-right-center- .air-datepicker--pointer:after,.-right-bottom- .air-datepicker--pointer:after,[data-popper-placement^=right] .air-datepicker--pointer:after{transform:rotate(225deg)}.-bottom-left- .air-datepicker--pointer,.-bottom-center- .air-datepicker--pointer,.-bottom-right- .air-datepicker--pointer,[data-popper-placement^=bottom] .air-datepicker--pointer{bottom:calc(100% - var(--pointer-half-size) + 1px)}.-bottom-left- .air-datepicker--pointer:after,.-bottom-center- .air-datepicker--pointer:after,.-bottom-right- .air-datepicker--pointer:after,[data-popper-placement^=bottom] .air-datepicker--pointer:after{transform:rotate(315deg)}.-left-top- .air-datepicker--pointer,.-left-center- .air-datepicker--pointer,.-left-bottom- .air-datepicker--pointer,[data-popper-placement^=left] .air-datepicker--pointer{left:calc(100% - var(--pointer-half-size) + 1px)}.-left-top- .air-datepicker--pointer:after,.-left-center- .air-datepicker--pointer:after,.-left-bottom- .air-datepicker--pointer:after,[data-popper-placement^=left] .air-datepicker--pointer:after{transform:rotate(45deg)}.-top-left- .air-datepicker--pointer,.-bottom-left- .air-datepicker--pointer{left:var(--adp-pointer-offset)}.-top-right- .air-datepicker--pointer,.-bottom-right- .air-datepicker--pointer{right:var(--adp-pointer-offset)}.-top-center- .air-datepicker--pointer,.-bottom-center- .air-datepicker--pointer{left:calc(50% - var(--adp-pointer-size)/2)}.-left-top- .air-datepicker--pointer,.-right-top- .air-datepicker--pointer{top:var(--adp-pointer-offset)}.-left-bottom- .air-datepicker--pointer,.-right-bottom- .air-datepicker--pointer{bottom:var(--adp-pointer-offset)}.-left-center- .air-datepicker--pointer,.-right-center- .air-datepicker--pointer{top:calc(50% - var(--adp-pointer-size)/2)}.air-datepicker--navigation{grid-area:nav}.air-datepicker--content{box-sizing:content-box;padding:var(--adp-padding);grid-area:body}.-only-timepicker- .air-datepicker--content{display:none}.air-datepicker--time{grid-area:timepicker}.air-datepicker--buttons{grid-area:buttons}.air-datepicker--buttons,.air-datepicker--time{padding:var(--adp-padding);border-top:1px solid var(--adp-border-color-inner)}.air-datepicker-overlay{position:fixed;background:var(--adp-overlay-background-color);left:0;top:0;width:0;height:0;opacity:0;transition:opacity var(--adp-overlay-transition-duration) var(--adp-overlay-transition-ease),left 0s,height 0s,width 0s;transition-delay:0s,var(--adp-overlay-transition-duration),var(--adp-overlay-transition-duration),var(--adp-overlay-transition-duration);z-index:var(--adp-overlay-z-index)}.air-datepicker-overlay.-active-{opacity:1;width:100%;height:100%;transition:opacity var(--adp-overlay-transition-duration) var(--adp-overlay-transition-ease),height 0s,width 0s}
 
-table[data-v-fd735932]{width:100%;border-collapse:collapse}table th[data-v-fd735932],table td[data-v-fd735932]{text-align:center;padding-left:1rem;padding-right:1rem;padding-top:0px;padding-bottom:0px;color:rgba(0,0,0,.87);vertical-align:middle;border-bottom:thin solid rgba(0,0,0,.12)}table th[data-v-fd735932]:nth-child(1),table th[data-v-fd735932]:nth-child(2),table th[data-v-fd735932]:nth-child(6),table td[data-v-fd735932]:nth-child(1),table td[data-v-fd735932]:nth-child(2),table td[data-v-fd735932]:nth-child(6){text-align:left}table th[data-v-fd735932]{font-size:0.875rem;line-height:1.25rem;font-weight:500;line-height:1.5;height:56px}table td[data-v-fd735932]{height:52px;padding-top:0.375rem;padding-bottom:0.375rem}.originality-ai--admin-container .main-content-item select[data-v-fd735932]{min-width:0 !important}.btn-main[data-v-fd735932]{letter-spacing:0.0892857143em}.btn-main[data-v-fd735932]:hover{background:rgba(33,33,33,.04) !important}.dc-share-link[data-v-fd735932]{width:28px;height:28px;display:inline-flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:center}.dc-remove-link[data-v-fd735932]{height:36px;display:inline-flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:center}.dc-remove-link[data-v-fd735932]:hover{background:rgba(33,33,33,.04) !important}.mdi[data-v-fd735932]:before{display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;text-rendering:auto;line-height:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.mdi-page-first[data-v-fd735932]::before{content:"󰘀"}.mdi-page-last[data-v-fd735932]::before{content:"󰘁"}.mdi-chevron-right[data-v-fd735932]::before{content:"󰅂"}.mdi-chevron-left[data-v-fd735932]::before{content:"󰅁"}.mdi-share-variant[data-v-fd735932]::before{content:"󰒗"}.mdi-trash-can-outline[data-v-fd735932]::before{content:"󰩺"}.items-info[data-v-fd735932]{color:rgba(0,0,0,.87)}.items-pagination ul[data-v-fd735932]{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:flex-start}.items-pagination ul li[data-v-fd735932]{margin:0}.items-pagination ul li:first-child button[data-v-fd735932]{margin-left:0 !important}.items-pagination ul li button[data-v-fd735932]{width:36px;height:36px;margin:4.8px;display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:center;background:rgba(0,0,0,0);cursor:pointer;border:0}.items-pagination ul li button i[data-v-fd735932]{font-size:24px;color:rgba(0,0,0,.87)}.items-pagination ul li button[disabled][data-v-fd735932]{pointer-events:none}.items-pagination ul li button[disabled] i[data-v-fd735932]{opacity:.26}.tooltip[data-v-fd735932]{position:absolute;z-index:100;top:100%;left:50%;transform:translateX(-50%);margin-top:.5rem;opacity:0;transition:opacity .3s ease;pointer-events:none;min-width:98px}.tooltip-trigger:hover .tooltip[data-v-fd735932]{opacity:1}.mdi-arrow-down[data-v-fd735932]{font-size:21px}.mdi-arrow-down[data-v-fd735932]:before{content:"󰁅"}.mdi-arrow-up[data-v-fd735932]{font-size:21px}.mdi-arrow-up[data-v-fd735932]:before{content:"󰁝"}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/group-css-media-queries-loader@4.3.0_loader-utils@2.0.4_postcss@8.4.49_webpack@5.98.0/node_modules/group-css-media-queries-loader/lib/index.js!./node_modules/.pnpm/sass-loader@16.0.3_sass@1.81.1_webpack@5.98.0/node_modules/sass-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./assets/js/mainapp/components/Table_scans.vue?vue&type=style&index=0&id=1e1f297b&lang=scss&scoped=true ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+table[data-v-1e1f297b] {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th[data-v-1e1f297b],
+table td[data-v-1e1f297b] {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: rgba(0, 0, 0, 0.87);
+  vertical-align: middle;
+  border-bottom: thin solid rgba(0, 0, 0, 0.12);
+}
+table th[data-v-1e1f297b]:nth-child(1), table th[data-v-1e1f297b]:nth-child(2), table th[data-v-1e1f297b]:nth-child(6),
+table td[data-v-1e1f297b]:nth-child(1),
+table td[data-v-1e1f297b]:nth-child(2),
+table td[data-v-1e1f297b]:nth-child(6) {
+  text-align: left;
+}
+table th[data-v-1e1f297b] {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  height: 56px;
+}
+table td[data-v-1e1f297b] {
+  height: 52px;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.originality-ai--admin-container .main-content-item select[data-v-1e1f297b] {
+  min-width: 0 !important;
+}
+.btn-main[data-v-1e1f297b] {
+  letter-spacing: 0.0892857143em;
+}
+.btn-main[data-v-1e1f297b]:hover {
+  background: rgba(33, 33, 33, 0.04) !important;
+}
+.dc-share-link[data-v-1e1f297b] {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.dc-remove-link[data-v-1e1f297b] {
+  height: 36px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.dc-remove-link[data-v-1e1f297b]:hover {
+  background: rgba(33, 33, 33, 0.04) !important;
+}
+.mdi[data-v-1e1f297b]:before {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mdi-page-first[data-v-1e1f297b]::before {
+  content: "\f0600";
+}
+.mdi-page-last[data-v-1e1f297b]::before {
+  content: "\f0601";
+}
+.mdi-chevron-right[data-v-1e1f297b]::before {
+  content: "\f0142";
+}
+.mdi-chevron-left[data-v-1e1f297b]::before {
+  content: "\f0141";
+}
+.mdi-share-variant[data-v-1e1f297b]::before {
+  content: "\f0497";
+}
+.mdi-trash-can-outline[data-v-1e1f297b]::before {
+  content: "\f0a7a";
+}
+.items-info[data-v-1e1f297b] {
+  color: rgba(0, 0, 0, 0.87);
+}
+.items-pagination ul[data-v-1e1f297b] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.items-pagination ul li[data-v-1e1f297b] {
+  margin: 0;
+}
+.items-pagination ul li:first-child button[data-v-1e1f297b] {
+  margin-left: 0 !important;
+}
+.items-pagination ul li button[data-v-1e1f297b] {
+  width: 36px;
+  height: 36px;
+  margin: 4.8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+}
+.items-pagination ul li button i[data-v-1e1f297b] {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.items-pagination ul li button[disabled][data-v-1e1f297b] {
+  pointer-events: none;
+}
+.items-pagination ul li button[disabled] i[data-v-1e1f297b] {
+  opacity: 0.26;
+}
+.tooltip[data-v-1e1f297b] {
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  min-width: 98px;
+}
+.tooltip-trigger:hover .tooltip[data-v-1e1f297b] {
+  opacity: 1;
+}
+.mdi-arrow-down[data-v-1e1f297b] {
+  font-size: 21px;
+}
+.mdi-arrow-down[data-v-1e1f297b]:before {
+  content: "\f0045";
+}
+.mdi-arrow-up[data-v-1e1f297b] {
+  font-size: 21px;
+}
+.mdi-arrow-up[data-v-1e1f297b]:before {
+  content: "\f005d";
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./assets/js/mainapp/components/Content.vue?vue&type=style&index=0&id=3ee74d0f&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
 .air-datepicker {
 	--adp-cell-background-color-selected: #7859ff;
@@ -24,7 +195,71 @@ table[data-v-fd735932]{width:100%;border-collapse:collapse}table th[data-v-fd735
 	color: #fff;
 }
 
-.originality-ai--admin-container{box-sizing:border-box}.originality-ai--admin-container *,.originality-ai--admin-container *::before,.originality-ai--admin-container *::after{box-sizing:border-box}#wpcontent{position:relative}#wpcontent:before{content:"";display:block;background:linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.8));z-index:0;position:absolute;width:100%;height:100%;top:0;left:0}.main-content+.v-card{margin-top:0}.v-card{margin-top:24px}.main-content-items{padding-top:24px}.main-content-items .main-content-item:not(:last-child){margin-bottom:24px}.main-content-item{border-radius:4px;padding:24px;background:#fcfcff;box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);max-width:calc(100% - 40px);margin-left:auto;margin-right:auto}.main-content-item__title{text-decoration:underline;text-decoration-color:#feba59}.apexcharts-xaxis-texts-g text:first-child{text-anchor:middle}.apexcharts-xaxis-texts-g text:last-child{text-anchor:end}.dc-chart-wrap svg{overflow:visible}.v-card{background:#fcfcff}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/group-css-media-queries-loader@4.3.0_loader-utils@2.0.4_postcss@8.4.49_webpack@5.98.0/node_modules/group-css-media-queries-loader/lib/index.js!./node_modules/.pnpm/sass-loader@16.0.3_sass@1.81.1_webpack@5.98.0/node_modules/sass-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./assets/js/mainapp/components/Content.vue?vue&type=style&index=1&id=3ee74d0f&lang=scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.originality-ai--admin-container {
+  box-sizing: border-box;
+}
+.originality-ai--admin-container *,
+.originality-ai--admin-container *::before,
+.originality-ai--admin-container *::after {
+  box-sizing: border-box;
+}
+#wpcontent {
+  position: relative;
+}
+#wpcontent:before {
+  content: "";
+  display: block;
+  background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.8));
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.main-content + .v-card {
+  margin-top: 0;
+}
+.v-card {
+  margin-top: 24px;
+}
+.main-content-items {
+  padding-top: 24px;
+}
+.main-content-items .main-content-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.main-content-item {
+  border-radius: 4px;
+  padding: 24px;
+  background: rgb(252, 252, 255);
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  max-width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content-item__title {
+  text-decoration: underline;
+  text-decoration-color: #feba59;
+}
+.apexcharts-xaxis-texts-g text:first-child {
+  text-anchor: middle;
+}
+.apexcharts-xaxis-texts-g text:last-child {
+  text-anchor: end;
+}
+.dc-chart-wrap svg {
+  overflow: visible;
+}
+.v-card {
+  background: rgb(252, 252, 255);
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.2_webpack@5.98.0/node_modules/css-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.49_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/group-css-media-queries-loader@4.3.0_loader-utils@2.0.4_postcss@8.4.49_webpack@5.98.0/node_modules/group-css-media-queries-loader/lib/index.js!./node_modules/.pnpm/sass-loader@16.0.3_sass@1.81.1_webpack@5.98.0/node_modules/sass-loader/dist/cjs.js!./node_modules/.pnpm/vue-loader@17.3.1_vue@3.5.13_webpack@5.98.0/node_modules/vue-loader/dist/index.js??ruleSet[1].rules[6].use[0]!./assets/js/mainapp/components/main-component.vue?vue&type=style&index=0&id=e45350ba&lang=scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .sr-only {
     position: absolute;
     width: 1px;
@@ -373,3 +608,5 @@ to {
         flex-shrink: 0
 }
 }
+
+/*# sourceMappingURL=vue-style.css.map*/
