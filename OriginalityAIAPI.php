@@ -49,9 +49,10 @@ class OriginalityAIAPI {
 	 * @see https://docs.originality.ai/api-v1-0-reference/scan/ai-scan
 	 */
 	const AI_SCAN_MODELS = [
-		'1' => 'Lite',
+		'1' => 'Lite 1.0.1',
 		'2' => '3.0 Turbo Model',
 		'3' => 'Multi Language',
+		'4' => "Lite"
 	];
 
 	/**
